@@ -30,15 +30,15 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .brand-mark i { display: block; width: 3px; border-radius: 3px; background: var(--lime); }
 .brand-mark i:nth-child(1) { height: 8px; } .brand-mark i:nth-child(2) { height: 15px; } .brand-mark i:nth-child(3) { height: 11px; }
 .sidebar nav { display: grid; gap: 3px; }
-.sidebar nav p { margin: 20px 10px 8px; color: #789087; font: 10px ui-monospace, "SFMono-Regular", Consolas, monospace; letter-spacing: .11em; text-transform: uppercase; }
+.sidebar nav p { margin: 20px 10px 8px; color: #9bb3aa; font: 10px ui-monospace, "SFMono-Regular", Consolas, monospace; letter-spacing: .11em; text-transform: uppercase; }
 .sidebar nav a, .sidebar nav button { display: flex; min-height: 41px; align-items: center; gap: 10px; padding: 0 11px; border: 0; border-radius: 7px; color: #aebdb7; background: transparent; text-align: left; text-decoration: none; }
-.sidebar nav a span { width: 19px; color: #6b857a; font: 10px ui-monospace, "SFMono-Regular", Consolas, monospace; }
+.sidebar nav a span { width: 19px; color: #9bb3aa; font: 10px ui-monospace, "SFMono-Regular", Consolas, monospace; }
 .sidebar nav a:hover, .sidebar nav a.active, .sidebar nav button:hover { color: #fff; background: rgba(255,255,255,.055); }
 .sidebar nav a.active { color: var(--lime); }
 .view-dot { width: 7px; height: 7px; border-radius: 50%; } .view-dot.lime { background: var(--lime); } .view-dot.coral { background: var(--coral); }
 .sidebar-footer { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; margin-top: auto; padding: 17px 8px 2px; border-top: 1px solid rgba(255,255,255,.09); }
 .avatar { display: grid; width: 34px; height: 34px; place-items: center; border-radius: 9px; color: var(--navy); background: var(--lime); font-size: 11px; font-weight: 800; }
-.sidebar-footer div { display: grid; gap: 3px; } .sidebar-footer strong { font-size: 12px; } .sidebar-footer small { color: #789087; font-size: 10px; }
+.sidebar-footer div { display: grid; gap: 3px; } .sidebar-footer strong { font-size: 12px; } .sidebar-footer small { color: #9bb3aa; font-size: 10px; }
 .sidebar-footer button { border: 0; color: #789087; background: transparent; letter-spacing: 2px; }
 
 .main-content { min-width: 0; }
@@ -102,7 +102,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .channel-icon { display: grid; width: 25px; height: 25px; place-items: center; border-radius: 6px; color: var(--navy); background: #e5e9e5; font-style: normal; font-weight: 800; }
 .channel-icon.organic { background: #e5edc4; } .channel-icon.paid { background: #dce8f2; } .channel-icon.partners { background: #f4ded5; }
 .table-row > span:last-child { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-.table-row small { color: #4f8428; font-size: 8px; }
+.table-row small { color: #447323; font-size: 8px; }
 .campaign-pill, .status-pill { padding: 5px 7px; border-radius: 5px; color: #515b56; background: #edebe5; font-size: 8px; }
 .funnel-list { display: grid; gap: 5px; margin-top: 21px; }
 .funnel-step div { display: flex; justify-content: space-between; margin-bottom: 7px; font-size: 9px; }
